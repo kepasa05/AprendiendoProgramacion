@@ -29,7 +29,7 @@ public class TablasMultiplicar {
 				puntos+=10;
 				
 			} else {
-				puntos-=5;
+				puntos-=10;
 			}
 			contador+=1;
 		}
