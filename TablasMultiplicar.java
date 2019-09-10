@@ -34,6 +34,16 @@ public class TablasMultiplicar {
 		}
 		
 		System.out.println ("Su puntuacion final es: " + points);
+		
+		if (points >=110) {
+			System.out.println("Ha obtenido una medalla de ORO ");
+		} else if (points >=90) {
+			System.out.println("Ha obtenido una medalla de PLATA ");
+		} else if (points >= 80) {
+			System.out.println("Ha obtenido una medalla de BRONCE ");
+		} else {
+			System.out.println("No ha obtenido ninguna medalla, HAY QUE PRACTICAR MASSSSS ");
+		}
 		sc.close();
 
 	}
